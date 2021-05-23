@@ -12,5 +12,5 @@ Space: O(1).
 
 **Results**
 
-Runtime: 68 ms, faster than 47.66% of Python online submissions for Find First and Last Position of Element in Sorted Array.
-Memory Usage: 14.8 MB, less than 19.66% of Python online submissions for Find First and Last Position of Element in Sorted Array.
+Runtime: 64 ms, faster than 74.38% of Python online submissions for Find First and Last Position of Element in Sorted Array.
+Memory Usage: 15.2 MB, less than 5.82% of Python online submissions for Find First and Last Position of Element in Sorted Array.
