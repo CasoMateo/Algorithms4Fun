@@ -7,9 +7,6 @@ class Solution(object):
         """
         if target not in nums:
           return [-1, -1]
-    
-        if nums.count(target) == 1:
-          return [nums.index(target), nums.index(target)]
           
         for i in range(len(nums)):
           if nums[i] == target: 
