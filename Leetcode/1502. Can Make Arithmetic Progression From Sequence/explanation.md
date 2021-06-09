@@ -2,7 +2,7 @@
 
 Sort the array and find the initial difference 
 between the first two elements. Check the difference
-of every item in the list.
+of every other item in the list.
 
 **Complexities**
 Time: O(Nlog(N)) - sorting.
