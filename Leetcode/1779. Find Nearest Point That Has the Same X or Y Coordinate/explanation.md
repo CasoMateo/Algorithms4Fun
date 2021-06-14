@@ -11,5 +11,5 @@ Space: O(N).
 
 **Results**
 
-Runtime: 700 ms, faster than 88.90% of Python3 online submissions for Find Nearest Point That Has the Same X or Y Coordinate.
-Memory Usage: 19.4 MB, less than 69.89% of Python3 online submissions for Find Nearest Point That Has the Same X or Y Coordinate.
+Runtime: 704 ms, faster than 81.81% of Python3 online submissions for Find Nearest Point That Has the Same X or Y Coordinate.
+Memory Usage: 19.2 MB, less than 90.24% of Python3 online submissions for Find Nearest Point That Has the Same X or Y Coordinate.
