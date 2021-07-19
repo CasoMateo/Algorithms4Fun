@@ -11,5 +11,5 @@ Space: O(1).
 
 **Results**
 
-Runtime: 240 ms, faster than 79.89% of Python3 online submissions for Count Items Matching a Rule.
-Memory Usage: 20.5 MB, less than 66.05% of Python3 online submissions for Count Items Matching a Rule.
+Runtime: 236 ms, faster than 89.35% of Python3 online submissions for Count Items Matching a Rule.
+Memory Usage: 20.4 MB, less than 98.72% of Python3 online submissions for Count Items Matching a Rule.
