@@ -13,10 +13,8 @@ class Solution:
         res.append(word2[i]) 
       
       if al == word1:
-        remaining = word2 
+        res.append(word2[i + 1 : len(word2)]) 
       else: 
-        remaining = word1 
-        
-      res.append(remaining[i + 1 : len(remaining)]) 
+        res.append(word1[i + 1 : len(word1)]) 
     
       return ''.join(res)
