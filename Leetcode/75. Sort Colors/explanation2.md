@@ -1,14 +1,14 @@
 **Algorithm Idea**
 
-Find the frequencies of the elements in the list and 
-use them to insert the colors in order. 
+Find the initial frequency of each item in the 
+array and insert such elements in order. 
 
 **Complexities**
 
 Time: O(N).
-Space: O(N).
+Space: O(1).
 
 **Results**
 
-Runtime: 32 ms, faster than 74.81% of Python3 online submissions for Sort Colors.
-Memory Usage: 14.2 MB, less than 75.60% of Python3 online submissions for Sort Colors.
+Runtime: 24 ms, faster than 97.97% of Python3 online submissions for Sort Colors.
+Memory Usage: 14.1 MB, less than 91.28% of Python3 online submissions for Sort Colors.
