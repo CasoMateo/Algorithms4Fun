@@ -7,7 +7,7 @@ class Solution:
       good = 0 
       for i in range(3, len(s) + 1):
         
-        if len(set(s[i - 3 : i])) == len(s[i - 3 : i]):
+        if len(set(s[i - 3 : i])) == 3:
           good += 1 
       
       return good
