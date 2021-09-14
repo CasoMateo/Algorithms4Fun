@@ -4,20 +4,16 @@ class Solution:
       priorities = []
       
       for i in range(len(s)):
-        if s[len(s) - i - 1].isalpha():
-          priorities.append(s[len(s) - i - 1]) 
+        if s[i].isalpha():
+          priorities.append(s[i]) 
       
-      reverse = list(s)
-      cur = seen = 0 
+      reverse = []
       
-      while seen < len(priorities): 
-        if reverse[cur].isalpha():
-          reverse[cur] = priorities[seen]
-          seen += 1
-        
-        cur += 1
+      for cur in range(len(s)):
+        if s[cur].isalpha():
+          reverse.append(priorities[-1])
+          priorities.pop()
+        else: 
+          reverse.append(s[cur])
       
       return ''.join(reverse)
-      
-      
-            
