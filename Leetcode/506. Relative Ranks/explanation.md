@@ -15,5 +15,4 @@ Space: O(N).
 **Results**
 
 Runtime: 72 ms, faster than 65.14% of Python3 online submissions for Relative Ranks.
-Memory Usage: 15.2 MB, less than 60.43% of Python3 online submissions for Relative Ranks.
-
+Memory Usage: 15.1 MB, less than 88.81% of Python3 online submissions for Relative Ranks.
