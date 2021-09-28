@@ -10,7 +10,7 @@ class Solution:
         cur = float('inf')
         
         for j in range(len(list1)):
-          if list1[j] in list2: 
+          if list1[j] in mem: 
             if mem[list1[j]] + j < cur:
               least = []
               least.append(list1[j])
