@@ -15,5 +15,5 @@ Space: O(1).
 
 **Results**
 
-Runtime: 48 ms, faster than 67.58% of Python3 online submissions for Distance Between Bus Stops.
-Memory Usage: 15.2 MB, less than 34.66% of Python3 online submissions for Distance Between Bus Stops.
+Runtime: 45 ms, faster than 69.58% of Python3 online submissions for Distance Between Bus Stops.
+Memory Usage: 15.1 MB, less than 76.06% of Python3 online submissions for Distance Between Bus Stops.
