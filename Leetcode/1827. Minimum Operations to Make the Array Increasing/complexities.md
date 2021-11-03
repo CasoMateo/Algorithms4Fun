@@ -7,7 +7,7 @@ adjustments for such number.
 **Complexities**
 
 Time: O(N).
-Space: O(N).
+Space: O(1).
 
 **Results**
 
