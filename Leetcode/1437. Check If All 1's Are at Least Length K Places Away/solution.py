@@ -9,10 +9,10 @@ class Solution:
         for i in range(prev + 1, len(nums)):
           if nums[i] == 1: 
             if i - prev - 1 < k: 
-              return False 
-          
-            else:
-              prev = i 
+              return False   
+            prev = i 
           
         return True
+        
+        
         
