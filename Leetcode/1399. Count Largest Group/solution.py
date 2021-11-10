@@ -10,10 +10,7 @@ class Solution:
 
         groups[cur] = groups.get(cur, 0) + 1
       
-      largest = 0
-      for freq in groups:
-        largest = max(groups[freq], largest)
-      
+      largest = max(groups.values())
       count = 0 
       
       for pos in groups: 
