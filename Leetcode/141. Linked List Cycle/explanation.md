@@ -1,7 +1,8 @@
 **Algorithm Idea**
 
-Time: O(N).
-Space: O(N).
+Because the maximum input length is 10000, if we 
+exceed such quantity, we have found a repeating 
+pattern.
 
 **Complexities**
 
