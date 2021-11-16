@@ -5,7 +5,7 @@ Space: O(N).
 
 **Complexities**
 
-Time: O(10⁴).
+Time: O(N).
 Space: O(1).
 
 **Results**
