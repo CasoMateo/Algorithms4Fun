@@ -3,12 +3,7 @@ class Solution:
     
       mem = {0: '2', 1: '9', 3: '5', 4: '9'}
       new = list(time)
-      
-      if new[0] == '?':
-        prev = '2'
-      else:
-        prev = new[0]
-      
+    
       for i in range(len(new)):
         if new[i] == ':':
           continue
@@ -25,6 +20,7 @@ class Solution:
               continue
                 
           new[i] = mem[i]
+        prev = new[i]
         
       return ''.join(new)
         
