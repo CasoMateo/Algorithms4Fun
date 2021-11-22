@@ -10,5 +10,5 @@ Space: O(N).
 
 **Results**
 
-Runtime: 52 ms, faster than 10.00% of Python3 online submissions for Number of Different Integers in a String.
-Memory Usage: 14.1 MB, less than 94.39% of Python3 online submissions for Number of Different Integers in a String.
+Runtime: 38 ms, faster than 22.11% of Python3 online submissions for Number of Different Integers in a String.
+Memory Usage: 13.9 MB, less than 98.95% of Python3 online submissions for Number of Different Integers in a String.
