@@ -8,9 +8,10 @@ class Solution:
             s = s[k: ]
         
         if len(subs[-1]) < k:
-            cur = subs[-1] + str(fill * (k - len(subs[-1])))
-            subs[-1] = cur 
+            subs[-1] += fill * (k - len(subs[-1])) 
         
         return subs
+            
+            
             
             
