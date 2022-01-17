@@ -1,19 +1,18 @@
 class Solution:
     def largeGroupPositions(self, s: str) -> List[List[int]]:
-      
-      intervals = []
-      cur = [0]
-      
-      for i in range(1, len(s)):
-        if s[i] != s[i - 1]:
-          cur.append(i - 1) 
-          if cur[1] - cur[0] >= 2: 
-            intervals.append(cur)
-          cur = [i]
-      
-      if len(cur) < 2:
-        cur.append(len(s) - 1)
-        if cur[1] - cur[0] >= 2:
-          intervals.append(cur)
-          
-      return intervals
+        
+        index = 0 
+        ranges = []
+     
+        
+        for i in range(len(s) - 1):
+    
+            if s[i] != s[i + 1]: 
+                if i - index >= 2:
+                    ranges.append([index, i])
+                index = i + 1
+        
+        if len(s) - 1 - index >= 2:
+            ranges.append([index, len(s) - 1])
+        
+        return ranges
