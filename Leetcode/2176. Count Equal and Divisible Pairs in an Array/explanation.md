@@ -6,7 +6,7 @@ is divisible by k.
 **Complexities**
 
 Time: O(N²). 
-Space: O(1). 
+Space: O(N). 
 
 **Results**
 
